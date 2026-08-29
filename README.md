@@ -2,7 +2,7 @@
 ## TABLE OF CONTENT
 ### Project Overview
 ### Tools And Technology
-###Datasets overview
+
 ### Data Cleaning And Power BI Dashboard
 ### Key Insights
 ### Recommendations
@@ -15,7 +15,7 @@ Mr piper started a business of selling and distributing technology, furniture an
 ### Tools And Technology
 Power bi 
 
-###Datasets overview
+### Datasets overview
 Row ID,	Order Priority,	Discount,	Unit Price,	Shipping Cost,	Customer ID	,Customer Name,	Ship Mode,	Customer Segment,	Product Category,	Product Sub-Category,	Product Container,	Product Name,	Product Base, Margin,	Country,	Region,	State or Province,	City,	Postal Code,	Order Date,	Ship Date	Profit	Quantity ordered new	Sales	Order ID
 
 ### Data Cleaning And Power BI Dashboard
