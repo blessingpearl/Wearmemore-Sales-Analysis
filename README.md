@@ -24,19 +24,19 @@ Changed data type
 Removed unwanted columns
 Created a calender table using query editor for the purpose of creating days of week and name of days before loading
 
-Data Modeling
-Order Table - Fact Table
-User Table - dimension Table
-Return Table - dimension Table
+Data Modeling:
+Order Table - Fact Table,
+User Table - dimension Table,
+Return Table - dimension Table,
 Calender Table - dimension Table
 
-Dax Measure
-total sales = SUMX(Orders, Orders[Sales] * Orders[Quantity ordered new])
-total revenue = SUMX(Orders, Orders[Quantity ordered new] * Orders[Unit Price])
-total profit = SUM(Orders[Profit])
+Dax Measure:
+total sales = SUMX(Orders, Orders[Sales] * Orders[Quantity ordered new]),
+total revenue = SUMX(Orders, Orders[Quantity ordered new] * Orders[Unit Price]),
+total profit = SUM(Orders[Profit]),
 total cost = CALCULATE([total sales] - [total profit])
 
-Data Visualisation
+Data Visualisation:
 Card, clustered bar chart, pie chart, line chart and map
 
 ### Key Insights
